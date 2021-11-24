@@ -40,7 +40,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           mnemonic,
-          "https://ropsten.infura.io/v3/9598959dac984109a2bf08134b38afc6"
+          "wss://eth-ropsten.alchemyapi.io/v2/m3cxnu3c5rf1VgGMIcNSus2XFTPKHJsA"
         ),
       network_id: 3, // Ropsten's id
       gas: 5500000, // Ropsten has a lower block limit than mainnet
